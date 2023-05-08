@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>When EXECUTE macro option is selected:
+======================================
+1. If you have a macro enabled document skip to point 4.
+2. Open a blank Word document.
+3. Save as Macro enabled Word document (*.dotm or *.dotm)
+Let’s say you save with the name doc1.dotm
+
+4. In this application click button "Macros" and open 
+a macro enabled Word document (doc1.dotm or the name you have given to it).
+
+5. If there are pre-existent macros in ThisDocument will appear in the textbox.
+6. Add any new macro with one Document parameter as in:
+
+    Sub DeleteSpellingErrors(doc As Document) 
+        Dim cnt, i As Long
+        Dim cur, Last As Range
+        Do
+            cnt = doc.Range.SpellingErrors.Count
+            If cnt &lt;= 0 Then Exit Do
+            Set Last = doc.GoTo(What:=wdGoToSpellingError, Which:=wdGoToLast)
+            Set cur = doc.GoTo(What:=wdGoToSpellingError, Which:=wdGoToFirst)
+            For i = 1 To cnt
+                cur.Select
+                cur.Delete
+                'Debug.Print cnt &amp; " " &amp; i
+                Set cur = doc.GoTo(What:=wdGoToSpellingError, Which:=wdGoToNext)
+                DoEvents
+                i = i + 1
+            Next
+        Loop
+ End  Sub
+
+5. Clicking "Accept" will close the dialog and fill 
+the combo box with the name of the macros.
+6. Select a macro or type in the combo box.
+7. On the right side of the form click the button "..." and browse 
+to a folder containing the Word documents to which execute the macro.
+8. Check subfolders if there are also documents contained in subfolders  to execute.
+9. Click Start. 
+======================================
+
+On the other hand, option 'DeleteSpellingErrors' will need 
+a folder path with Word documents to which 
+delete all the spelling errors.
+
+======================================
+ Advanced use.
+ =============
+You may employ extra parameters (up to 29 extra parameters, 
+30 in total counting the always needed 'doc' parameter).
+For example, if you add this macro to replace matching 
+strings of 'str'contents by 'byStr' contents, you would 
+type in the combo's text box: replace("he","Smith, John")
+Note: you do not have to write 'doc' parameter, just the 
+extra parameters.
+
+Sub replace(doc As Document, str, byStr) ' here 'doc' is mandatory
+    doc.Content.Select
+    With Selection.Find
+       .Forward = True
+       .MatchCase = True
+       .Text = str
+       .Replacement.Text = byStr
+       .Execute replace:=wdReplaceAll, Forward:=True, _
+            Wrap:=wdFindContinue
+    End With
+End Sub</value>
+  </data>
+</root>

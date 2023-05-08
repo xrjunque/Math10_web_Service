@@ -1,0 +1,9 @@
+1. Pedir a Axarnet el archivo en formato .pfx y la CONTRASEÑA.
+2. Instalar mediante la consola "mmc" (pedir desde la
+consola "cmd" con permisos de Administrador).
+  a. Importar a la carpeta personal
+  b.   "       "     "     entidades intermedias.
+  c.   "       "     "        "      de confianza.
+3. Exportar el certificado RapidSSL desde la carpeta personal 
+  a formato .cer
+4. Importar desde IIS el certificado anterior .cer.

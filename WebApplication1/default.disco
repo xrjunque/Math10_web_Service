@@ -1,0 +1,5 @@
+﻿<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+<contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="https://xrjunque.nom.es/math10/math10.asmx?wsdl" docRef="https://xrjunque.nom.es/math10/math10.asmx"/>
+<soap xmlns:q1="http://xrjunque.nom.es/" xmlns="http://schemas.xmlsoap.org/disco/soap/" address="https://xrjunque.nom.es/math10/math10.asmx" binding="q1:Math10Soap"/>
+<soap xmlns:q2="http://xrjunque.nom.es/" xmlns="http://schemas.xmlsoap.org/disco/soap/" address="https://xrjunque.nom.es/math10/math10.asmx" binding="q2:Math10Soap12"/>
+</discovery>

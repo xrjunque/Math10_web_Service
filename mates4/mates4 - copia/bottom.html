@@ -1,0 +1,131 @@
+<html>
+<head>
+<STYLE type=text/css>
+@import url("../styles/27 supertext.css");
+</STYLE>
+</head>
+<body>
+    <table align="center" width="100%" height="100">
+        <tr>
+            <td align="left">
+                <h5 class="Estilo9" align="left">
+                    Copyright <span class=Estilo23>MMIII</span> by
+                    Heros Technology Ltd. Webmaster
+                </h5>
+            </td>
+            <td align="right">
+                <h5 class="Estilo9" align=right>For any comments regarding this website, please e-mail us.</h5>
+            </td>
+        </tr>
+    </table>
+    <table width="90%">
+        <tr align="center" valign="middle">
+            <td width="33%"><img src="../../media/base/nt.png" width="200" height="80" /></td>
+            <td width="34%"><img src="../../media/base/ssl.gif" width="104" height="104" /></td>
+            <td width="33%"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=herostechnology.co.uk','SiteLock','width=800,height=800,left=160,top=170');"><img title="1&1 SiteLock" src="https://shield.sitelock.com/shield/herostechnology.co.uk" alt="Website security"></a>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+            <td height="50">&nbsp;</td>
+            <td height="50">&nbsp;</td>
+            <td height="50">&nbsp;</td>
+        </tr>
+    </table>
+    <table bgcolor=#ffffff align="center" width="90%">
+        <tr align="center">
+            <td><a target="_parent" href="../../index.html"><span class="Estilo39">Home</span></a></td>
+            <td><a target="_parent" href="../products.html"><span class="Estilo39">Products</span></a></td>
+            <td><a target="_parent" href="../multimedia.html"><span class="Estilo39">Multimedia</span></a></td>
+            <td><a target="_parent" href="../orderinfo.html"><span class="Estilo39">Ordering Information</span></a></td>
+            <td><a target="_parent" href="../orderForm.aspx"><span class="Estilo39">Online Order Form</span></a></td>
+            <td><a target="_parent" href="../downloads.html"><span class="Estilo39">Downloads</span></a></td>
+            <td><a target="_parent" href="../contactUs.aspx"><span class="Estilo39">Contact&nbsp;Us</span></a></td>
+            <td><a target="_parent" href="../about_us.html"><span class="Estilo39">About&nbsp;Us</span></a></td>
+        </tr>
+    </table>
+    <div id="mb_ad"></div>
+    <!--counter xrjunque-->
+    <script language="javascript1.2" type="text/javascript">
+        var s, c, j, d, f; s = "na"; c = "na"; j = "na"; d = new Date(); f = "" + document.referrer;
+        var doc = location.href.split("/"); var sb = doc[doc.length - 1];
+        var re = /;/gi; var re2 = ' '; f = f.replace(re, re2); re = /&/gi; f = f.replace(re, re2);
+        var d1 = d.getYear() + "/" + (d.getMonth() + 1) + "/" + d.getDate() + "/" +
+            d.getHours() + "/" + d.getMinutes() + "/" + d.getDay();
+        var u = location.href; var pos = u.indexOf("?");
+        var url = "../contaHeros.aspx";
+        if (pos != -1) u = u.substring(0, pos);
+    </script>
+
+    <script language="javascript1.2" type="text/javascript">
+        s = screen.width; v = navigator.appName;
+        if (v != "Netscape") { c = screen.colorDepth; }
+        else { c = screen.pixelDepth; }
+        j = navigator.javaEnabled();
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function getXHR() {
+            if (window.XMLHttpRequest) {
+                // Chrome, Firefox, IE7+, Opera, Safari
+                return new XMLHttpRequest();
+            }
+            // IE6
+            try {
+                // The latest stable version. It has the best security, performance, 
+                // reliability, and W3C conformance. Ships with Vista, and available 
+                // with other OS's via downloads and updates. 
+                return new ActiveXObject('MSXML2.XMLHTTP.6.0');
+            } catch (e) {
+                try {
+                    // The fallback.
+                    return new ActiveXObject('MSXML2.XMLHTTP.3.0');
+                } catch (e) {
+                    alert('This browser is not AJAX enabled.');
+                    return null;
+                }
+            }
+        }
+        var ip = "";
+        function pr(n) {
+            document.getElementById('mb_ad').innerHTML = n;
+        }
+        function sleep(delay) {
+            var start = new Date().getTime();
+            while (new Date().getTime() < start + delay);
+        }
+        var oReq = getXHR();
+        function reqListener() {
+            var t = oReq.responseText;
+            var a = t.indexOf("<ip>");
+            var b = t.indexOf("</ip>");
+            ip = t.substring(a + 4, b);
+            var NS2Ch = 0;
+            if (navigator.appName == "Netscape" &&
+                navigator.appVersion.charAt(0) == "2") { NS2Ch = 1 }
+            if (NS2Ch == 0) {
+
+                r = "?s=" + s + "&c=" + c + "&u=" + u + "&r=" + f + "&sb=" + sb + "&ip=" + ip;
+                r = encodeURI(r);
+                //alert(r);
+                pr("<a href=\"" + url + r + "\"></a><img border=0 src=\"" + url + r + "\" width=\"1\" heigth=\"1\">");
+            }
+        }
+        oReq.addEventListener("load", reqListener);
+        oReq.open("GET", "https://api.hostip.info");
+        oReq.send();
+    </script>
+    <!--end counter xrjunque-->
+    <!--script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-81727351-1', 'auto');
+        ga('send', 'pageview');
+
+    </script-->
+</body>
+</html>
+

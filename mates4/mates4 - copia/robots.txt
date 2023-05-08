@@ -1,0 +1,14 @@
+﻿User-agent: Googlebot
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /contadores/
+Disallow: /deonate/
+Disallow: /downloads/
+Disallow: /ga/
+Disallow: /php/
+Disallow: /txt/
+Disallow: /wordpress/
+
+User-agent: *
+Allow: /
+

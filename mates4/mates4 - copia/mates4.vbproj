@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E8CA75ED-78FA-458D-BD45-F482C8DEE5EE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>mates4</RootNamespace>
+    <AssemblyName>mates4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="commentfrm.aspx.designer.vb">
+      <DependentUpon>commentfrm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="commentfrm.aspx.vb">
+      <DependentUpon>commentfrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="conta1.aspx.designer.vb">
+      <DependentUpon>conta1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="conta1.aspx.vb">
+      <DependentUpon>conta1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contadores\contadores.aspx.designer.vb">
+      <DependentUpon>contadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contadores\contadores.aspx.vb">
+      <DependentUpon>contadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contadores\latLong.aspx.designer.vb">
+      <DependentUpon>latLong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contadores\latLong.aspx.vb">
+      <DependentUpon>latLong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contaHeros.aspx.designer.vb">
+      <DependentUpon>contaHeros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contaHeros.aspx.vb">
+      <DependentUpon>contaHeros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Convert2rpn.aspx.designer.vb">
+      <DependentUpon>Convert2rpn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Convert2rpn.aspx.vb">
+      <DependentUpon>Convert2rpn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConvertAlg2RPN_RPL.aspx.designer.vb">
+      <DependentUpon>ConvertAlg2RPN_RPL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConvertAlg2RPN_RPL.aspx.vb">
+      <DependentUpon>ConvertAlg2RPN_RPL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="counter.aspx.designer.vb">
+      <DependentUpon>counter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="counter.aspx.vb">
+      <DependentUpon>counter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="download.aspx.designer.vb">
+      <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="download.aspx.vb">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="email.vb" />
+    <Compile Include="graphic.aspx.designer.vb">
+      <DependentUpon>graphic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="graphic.aspx.vb">
+      <DependentUpon>graphic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="herostech.aspx.designer.vb">
+      <DependentUpon>herostech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="herostech.aspx.vb">
+      <DependentUpon>herostech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="links.aspx.designer.vb">
+      <DependentUpon>links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="links.aspx.vb">
+      <DependentUpon>links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mates8\Complex.vb" />
+    <Compile Include="mates8\Config.vb" />
+    <Compile Include="mates8\Config84.vb" />
+    <Compile Include="mates8\currentMatch.vb" />
+    <Compile Include="mates8\customFn.vb" />
+    <Compile Include="mates8\C_session.vb" />
+    <Compile Include="mates8\Detall.vb" />
+    <Compile Include="mates8\Differential_Equations.vb" />
+    <Compile Include="mates8\Expression.Deriv.vb" />
+    <Compile Include="mates8\Expression.InmediateIntegrals.vb" />
+    <Compile Include="mates8\Expression.Integral.vb" />
+    <Compile Include="mates8\Expression.IntegrationByParts.vb" />
+    <Compile Include="mates8\Expression.TrigonometricIntegral.vb" />
+    <Compile Include="mates8\Expression.vb" />
+    <Compile Include="mates8\exprMatrix.vb" />
+    <Compile Include="mates8\exprParser.vb" />
+    <Compile Include="mates8\exprParserRPN.vb" />
+    <Compile Include="mates8\Functions.vb" />
+    <Compile Include="mates8\Interpolation.vb" />
+    <Compile Include="mates8\Lagrangian.vb" />
+    <Compile Include="mates8\m8ToRPN.vb" />
+    <Compile Include="mates8\MathGlobal8.vb" />
+    <Compile Include="mates8\Matrix.vb" />
+    <Compile Include="mates8\matrixParser.vb" />
+    <Compile Include="mates8\msg884.vb" />
+    <Compile Include="mates8\msg8B.vb" />
+    <Compile Include="mates8\Polynomial.Integral..vb" />
+    <Compile Include="mates8\Polynomial.vb" />
+    <Compile Include="mates8\Rational.vb" />
+    <Compile Include="mates8\ReduceUsingPolynomials.vb" />
+    <Compile Include="mates8\retMtx.vb" />
+    <Compile Include="mates8\RPN_Stack.vb" />
+    <Compile Include="mates8\SystemOfEquations.vb" />
+    <Compile Include="mates8\Token.vb" />
+    <Compile Include="mates8\Units.vb" />
+    <Compile Include="mates8\Variables.vb" />
+    <Compile Include="mates8\Vector.vb" />
+    <Compile Include="MathML_To_String.aspx.designer.vb">
+      <DependentUpon>MathML_To_String.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MathML_To_String.aspx.vb">
+      <DependentUpon>MathML_To_String.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="menu1.ascx.designer.vb">
+      <DependentUpon>menu1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="menu1.ascx.vb">
+      <DependentUpon>menu1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile.aspx.designer.vb">
+      <DependentUpon>mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobile.aspx.vb">
+      <DependentUpon>mobile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MobileOLD.aspx.designer.vb">
+      <DependentUpon>MobileOLD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileOLD.aspx.vb">
+      <DependentUpon>MobileOLD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile\Mobile.aspx.designer.vb">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\Mobile.aspx.vb">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PolyCalc.aspx.designer.vb">
+      <DependentUpon>PolyCalc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolyCalc.aspx.vb">
+      <DependentUpon>PolyCalc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="precis\menuM8.ascx.vb">
+      <DependentUpon>menuM8.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="precis\polycalc.aspx.designer.vb">
+      <DependentUpon>polycalc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="precis\polycalc.aspx.vb">
+      <DependentUpon>polycalc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="precis\rootfinder.aspx.designer.vb">
+      <DependentUpon>rootfinder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="precis\rootfinder.aspx.vb">
+      <DependentUpon>rootfinder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quickStart.aspx.designer.vb">
+      <DependentUpon>quickStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="quickStart.aspx.vb">
+      <DependentUpon>quickStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rootfinder.aspx.designer.vb">
+      <DependentUpon>rootfinder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rootfinder.aspx.vb">
+      <DependentUpon>rootfinder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="session.vb" />
+    <Compile Include="Site3.Master.designer.vb">
+      <DependentUpon>Site3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site3.Master.vb">
+      <DependentUpon>Site3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.vb">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.vb">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="swdownload.aspx.designer.vb">
+      <DependentUpon>swdownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="swdownload.aspx.vb">
+      <DependentUpon>swdownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thanks.aspx.designer.vb">
+      <DependentUpon>thanks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thanks.aspx.vb">
+      <DependentUpon>thanks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorialv8_4.aspx.designer.vb">
+      <DependentUpon>tutorialv8_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorialv8_4.aspx.vb">
+      <DependentUpon>tutorialv8_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebServiceInfo.aspx.designer.vb">
+      <DependentUpon>WebServiceInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebServiceInfo.aspx.vb">
+      <DependentUpon>WebServiceInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bottom.html" />
+    <Content Include="commentfrm.aspx" />
+    <Content Include="conta1.aspx" />
+    <Content Include="contaHeros.aspx" />
+    <Content Include="Convert2rpn.aspx" />
+    <Content Include="ConvertAlg2RPN_RPL.aspx" />
+    <Content Include="counter.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="default.aspx" />
+    <Content Include="download.aspx" />
+    <Content Include="downloads\Convert2rpn.zip" />
+    <Content Include="downloads\Fonts.zip" />
+    <Content Include="downloads\Informes.zip" />
+    <Content Include="downloads\Mates8 Manual de usuario.pdf" />
+    <Content Include="downloads\Mates8 usage in VB.Net.pdf" />
+    <Content Include="downloads\Mates8 usage in VB6.pdf" />
+    <Content Include="downloads\Mates8 User%27s Guide.pdf" />
+    <Content Include="downloads\mates8Dll.zip" />
+    <Content Include="downloads\mates8NetDll.zip" />
+    <Content Include="downloads\mates8v8.111All.zip" />
+    <Content Include="downloads\Mates8v8.3.103.zip" />
+    <Content Include="downloads\Mates8v8.3.103source.zip" />
+    <Content Include="downloads\Mates8v8.3.111.zip" />
+    <Content Include="downloads\Mates8v8.3.111source.zip" />
+    <Content Include="downloads\Mates8v8.3.181.zip" />
+    <Content Include="downloads\Mates8v8.3.181source.zip" />
+    <Content Include="downloads\Mates8v8.3.182.zip" />
+    <Content Include="downloads\Mates8v8.3.182source.zip" />
+    <Content Include="downloads\Mates8v8.3.183.zip" />
+    <Content Include="downloads\Mates8v8.3.183source.zip" />
+    <Content Include="downloads\mates8VB6dll.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.103.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.106.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.111.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.181.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.182.zip" />
+    <Content Include="downloads\mates8_excel_v8.3.183.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.103.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.106.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.111.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.181.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.182.zip" />
+    <Content Include="downloads\PolyCalcInExcel_v8.3.183.zip" />
+    <Content Include="downloads\TestMates8 for .NET programming.zip" />
+    <Content Include="downloads\TestMates8 for VB6 programming.zip" />
+    <Content Include="downloads\TimeZones.zip" />
+    <Content Include="downloads\tutorialv8_4_0.pdf" />
+    <Content Include="downloads\tutorialv8_4_2.pdf" />
+    <Content Include="downloads\tutorialv8_4_3.pdf" />
+    <Content Include="downloads\WinDipolesV4.7.27.zip" />
+    <Content Include="downloads\WinDipolesV4.7.35.zip" />
+    <Content Include="downloads\WinDipolesV4.7.36.zip" />
+    <Content Include="downloads\WinRanking.zip" />
+    <Content Include="favicon.ico" />
+    <Content Include="graphic.aspx" />
+    <Content Include="herostech.aspx" />
+    <Content Include="links.aspx" />
+    <Content Include="lluvia de estrellas.txt" />
+    <Content Include="MathML_To_String.aspx" />
+    <Content Include="menu1.ascx" />
+    <Content Include="mobile.aspx" />
+    <Content Include="MobileOLD.aspx" />
+    <Content Include="Mobile\Mobile.aspx" />
+    <Content Include="PolyCalc.aspx" />
+    <Content Include="precis\images\bgMenu.gif" />
+    <Content Include="precis\images\bgMenu.png" />
+    <Content Include="precis\images\bgMenu2.gif" />
+    <Content Include="precis\images\brick1.bmp" />
+    <Content Include="precis\images\btnComments.png" />
+    <Content Include="precis\images\btnComments2.png" />
+    <Content Include="precis\images\btnDownloads.png" />
+    <Content Include="precis\images\btnDownloads2.png" />
+    <Content Include="precis\images\btnGraph.png" />
+    <Content Include="precis\images\btnGraph2.png" />
+    <Content Include="precis\images\btnHome.png" />
+    <Content Include="precis\images\btnHome2.png" />
+    <Content Include="precis\images\btnLinks.png" />
+    <Content Include="precis\images\btnLinks2.png" />
+    <Content Include="precis\images\btnPolyCalc.png" />
+    <Content Include="precis\images\btnPolyCalc2.png" />
+    <Content Include="precis\images\btnRoots.png" />
+    <Content Include="precis\images\btnRoots2.png" />
+    <Content Include="precis\images\christmas2.png" />
+    <Content Include="precis\images\clock.png" />
+    <Content Include="precis\images\clouds.jpg" />
+    <Content Include="precis\images\contajunfor.jpg" />
+    <Content Include="precis\images\corchete_L.jpg" />
+    <Content Include="precis\images\corchete_R.jpg" />
+    <Content Include="precis\images\cross.jpg" />
+    <Content Include="precis\images\cuadr.bmp" />
+    <Content Include="precis\images\cuadr2.bmp" />
+    <Content Include="precis\images\cuadr2.jpg" />
+    <Content Include="precis\images\dont1.PNG" />
+    <Content Include="precis\images\dont2.PNG" />
+    <Content Include="precis\images\dont3.PNG" />
+    <Content Include="precis\images\download.bmp" />
+    <Content Include="precis\images\download2.bmp" />
+    <Content Include="precis\images\download3.bmp" />
+    <Content Include="precis\images\grTable - copia.png" />
+    <Content Include="precis\images\grTable.png" />
+    <Content Include="precis\images\instead.PNG" />
+    <Content Include="precis\images\instead2.PNG" />
+    <Content Include="precis\images\integral.jpg" />
+    <Content Include="precis\images\mates8.jpg" />
+    <Content Include="precis\images\mates8.PNG" />
+    <Content Include="precis\images\mates8a.png" />
+    <Content Include="precis\images\mates8b.png" />
+    <Content Include="precis\images\mates8c.png" />
+    <Content Include="precis\images\mates8d.png" />
+    <Content Include="precis\images\matesExcel1.jpg" />
+    <Content Include="precis\images\matesExcel2.jpg" />
+    <Content Include="precis\images\minus.jpg" />
+    <Content Include="precis\images\mnComments.bmp" />
+    <Content Include="precis\images\mnComments2.bmp" />
+    <Content Include="precis\images\mnComments3.bmp" />
+    <Content Include="precis\images\mnDownloads.bmp" />
+    <Content Include="precis\images\mnDownloads2.bmp" />
+    <Content Include="precis\images\mnDownloads3.bmp" />
+    <Content Include="precis\images\mnGraph.bmp" />
+    <Content Include="precis\images\mnGraph2.bmp" />
+    <Content Include="precis\images\mnGraph3.bmp" />
+    <Content Include="precis\images\mnHome.bmp" />
+    <Content Include="precis\images\mnHome2.bmp" />
+    <Content Include="precis\images\mnHome3.bmp" />
+    <Content Include="precis\images\mnLinks.bmp" />
+    <Content Include="precis\images\mnLinks2.bmp" />
+    <Content Include="precis\images\mnLinks3.bmp" />
+    <Content Include="precis\images\mnPolyCalc.bmp" />
+    <Content Include="precis\images\mnPolyCalc2.bmp" />
+    <Content Include="precis\images\mnPolyCalc3.bmp" />
+    <Content Include="precis\images\mnRootsFinder.bmp" />
+    <Content Include="precis\images\mnRootsFinder2.bmp" />
+    <Content Include="precis\images\mnRootsFinder3.bmp" />
+    <Content Include="precis\images\new-year-cards-merry-christmas-happy-new-year.jpg" />
+    <Content Include="precis\images\Open.png" />
+    <Content Include="precis\images\Save.png" />
+    <Content Include="precis\images\tableBg.gif" />
+    <Content Include="precis\images\testmates6.jpg" />
+    <Content Include="precis\images\testmates6_2.jpg" />
+    <Content Include="precis\images\Windipoles.jpg" />
+    <Content Include="precis\images\Windipoles.png" />
+    <Content Include="precis\images\Windipolos.png" />
+    <Content Include="precis\images\WinFont1.jpg" />
+    <Content Include="precis\images\WinFont2.jpg" />
+    <Content Include="precis\images\WinFonts.PNG" />
+    <Content Include="precis\images\winranking.jpg" />
+    <Content Include="precis\imgQuickStart\quickStart1.png" />
+    <Content Include="precis\imgQuickStart\quickStart2.png" />
+    <Content Include="precis\imgQuickStart\quickStart3.png" />
+    <Content Include="precis\img_tutorialv8_4_0\intro.png" />
+    <Content Include="precis\img_tutorialv8_4_0\page2.png" />
+    <Content Include="precis\img_tutorialv8_4_0\page3.png" />
+    <Content Include="precis\img_tutorialv8_4_0\page4.png" />
+    <Content Include="precis\img_tutorialv8_4_0\page5.png" />
+    <Content Include="precis\img_tutorialv8_4_0\page6.png" />
+    <Content Include="precis\img_tutorialv8_4_1\page1.png" />
+    <Content Include="precis\img_tutorialv8_4_1\page2.png" />
+    <Content Include="precis\img_tutorialv8_4_1\page3.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page1.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page2.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page3.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page4.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page5.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page6.png" />
+    <Content Include="precis\img_tutorialv8_4_2\page7.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page1.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page2.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page3.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page4.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page5.png" />
+    <Content Include="precis\img_tutorialv8_4_3\page6.png" />
+    <Content Include="precis\menuM8.ascx" />
+    <Content Include="precis\polycalc.aspx" />
+    <Content Include="precis\rootfinder.aspx" />
+    <Content Include="precis\swdownload.aspx" />
+    <Content Include="quickStart.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="rootfinder.aspx" />
+    <Content Include="rootfinder.txt" />
+    <Content Include="swdownload.aspx" />
+    <Content Include="thanks.aspx" />
+    <Content Include="tutorialv8_4.aspx" />
+    <Content Include="txt\calculadora.txt" />
+    <Content Include="txt\comments.txt" />
+    <Content Include="txt\downloads.txt" />
+    <Content Include="txt\herostech.txt" />
+    <Content Include="txt\HPcmds.txt" />
+    <Content Include="txt\polycalc.txt" />
+    <Content Include="txt\rootfinder.txt" />
+    <Content Include="txt\ultimoIP.txt" />
+    <Content Include="webs.txt" />
+    <Content Include="WebServiceInfo.aspx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site1.Master" />
+    <Content Include="Tabla del conversor.xls" />
+    <Content Include="web.config" />
+    <Content Include="Site2.Master" />
+    <Content Include="Site3.Master" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contadores\contadorAbout.php" />
+    <Content Include="contadores\contadores.aspx" />
+    <Content Include="contadores\latLong.aspx" />
+    <Content Include="contadores\pixel.gif" />
+    <Content Include="downloads\Mates8 User%27s Guide.htm" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>mates4.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53499</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53499/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

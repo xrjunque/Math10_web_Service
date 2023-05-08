@@ -1,0 +1,197 @@
+
+000000|catbcn1|localhost (pruebas)     |http://localhost/contador3/inicio.htm
+
+000001|brinkster|Brinkster               |https://xrjunque.nom.es
+000001|brinkster|Brinkster               |https://xrjunque.nom.es/
+000001|brinkster|Brinkster               |https://xrjunque.brinkster.net
+000001|brinkster|Brinkster               |https://xrjunque.brinkster.net/
+000001|brinkster|Brinkster               |https://xrjunque.nom.es/Home.aspx
+000001|brinkster|Brinkster               |https://xrjunque.nom.es/Home.aspx/
+000001|brinkster|Brinkster               |https://xrjunque.brinkster.net/Home.aspx
+000001|brinkster|Brinkster               |https://xrjunque.brinkster.net/Home.aspx/
+
+000002|brinkster|Brinkster               |https://xrjunque.nom.es/rootfinder.aspx
+000002|brinkster|Brinkster               |https://xrjunque.brinkster.net/rootfinder.aspx
+000002|brinkster|Brinkster               |https://xrjunque.nom.es/rootsFinder.aspx
+000002|brinkster|Brinkster               |https://xrjunque.brinkster.net/rootsFinder.aspx
+
+000003|brinkster|Brinkster               |https://xrjunque.nom.es/polycalc.aspx
+000003|brinkster|Brinkster               |https://xrjunque.brinkster.net/polycalc.aspx
+
+000004|brinkster|Brinkster               |https://xrjunque.nom.es/freesoftware.aspx
+000004|brinkster|Brinkster               |https://xrjunque.brinkster.net/freesoftware.aspx
+
+000005|brinkster|Brinkster               |https://xrjunque.nom.es/download.aspx
+000005|brinkster|Brinkster               |https://xrjunque.brinkster.net/download.aspx
+
+000006|brinkster|Brinkster               |https://xrjunque.nom.es/admfns.aspx
+000006|brinkster|Brinkster               |https://xrjunque.brinkster.net/admfns.aspx
+
+000001|brinkster|Brinkster               |http://www.xrjunque.nom.es
+000001|brinkster|Brinkster               |http://www.xrjunque.nom.es/
+000001|brinkster|Brinkster               |http://www.xrjunque.brinkster.net
+000001|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/
+000001|brinkster|Brinkster               |http://www.xrjunque.nom.es/Home.aspx
+000001|brinkster|Brinkster               |http://www.xrjunque.nom.es/Home.aspx/
+000001|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/Home.aspx
+000001|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/Home.aspx/
+
+000002|brinkster|Brinkster               |http://www.xrjunque.nom.es/rootfinder.aspx
+000002|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/rootfinder.aspx
+000002|brinkster|Brinkster               |http://www.xrjunque.nom.es/rootsFinder.aspx
+000002|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/rootsFinder.aspx
+
+000003|brinkster|Brinkster               |http://wgww.xrjunque.nom.es/polycalc.aspx
+000003|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/polycalc.aspx
+
+000004|brinkster|Brinkster               |http://www.xrjunque.nom.es/freesoftware.aspx
+000004|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/freesoftware.aspx
+
+000005|brinkster|Brinkster               |http://www.xrjunque.nom.es/download.aspx
+000005|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/download.aspx
+
+
+000006|brinkster|Brinkster               |http://www.xrjunque.nom.es/admfns.aspx
+000006|brinkster|Brinkster               |http://www.xrjunque.brinkster.net/admfns.aspx
+
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org/
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org/index.html
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org/index.html/
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org/php/imagelink.php
+000100|catbcn|Catedral de Barcelona      |http://www.catedralbcn.org/php/imagelink.php/
+	
+000200|osasuna|Osasuna (index)           |http://www.navarra.com/osasuna/index.htm
+000200|osasuna|Osasuna (index)           |http://www.navarra.com/osasuna/
+000200|osasuna|Osasuna (index)           |http://www.navarra.com/osasuna
+000201|osasuna|Osasuna (generador.asp)   |http://www.navarra.com/osasuna/generador.asp
+
+000210|libreria|Libreria                 |http://www.navarra.com/libreria
+000210|libreria|Libreria                 |http://www.navarra.com/libreria/
+000210|libreria|Libreria                 |http://www.navarra.com/libreria/generador.asp
+000210|libreria|Libreria                 |http://www.navarra.com/libreria/index.asp
+000210|libreria|Libreria                 |http://www.navarra.com/libreria/imagelink.asp
+
+000300|buhardilla|La buhardilla          |http://turismo.navarra.com/recomienda/la_buhardilla/index.html
+000300|buhardilla|La buhardilla          |http://turismo.navarra.com/recomienda/la_buhardilla/
+000300|buhardilla|La buhardilla          |http://turismo.navarra.com/recomienda/la_buhardilla
+000301|buhardillaEng|La buhardilla (english)|http://turismo.navarra.com/recomienda/la_buhardilla/indexe.html
+
+
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/default.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/index.aspx
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/software.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/technicalinfo.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/order.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/contact.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/news.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/about.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/link.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/components.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/vistashortcuts.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/xpshortcuts.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/9598meshortcut.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/programmer.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/modulaccessories.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/progaccessories.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/termsconditions.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/windipoles.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/winpic2006prog.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/winranking.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/forminfo.asp
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/galery/index.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/compages/minicircuit.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/compages/capacitors/capacitors.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/pages/compages/wound/woundprod.html
+
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/index.aspx
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/software.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/technicalinfo.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/order.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/contact.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/news.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/about.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/link.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/components.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/vistashortcuts.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/xpshortcuts.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/9598meshortcut.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/programmer.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/modulaccessories.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/progaccessories.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/termsconditions.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/windipoles.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/winpic2006prog.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/winranking.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/forminfo.asp
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/galery/index.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/compages/minicircuit.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/compages/capacitors/capacitors.html
+000400|heros|Heros Technology       |http://www.herostechnology.co.uk/herostech/pages/compages/wound/woundprod.html
+
+
+000500|navarra|Navarra.com           |http://www.navarra.com/index.htm
+000500|navarra|Navarra.com           |http://www.navarra.com
+000500|navarra|Navarra.com           |http://www.navarra.com/
+000500|navarra|Navarra.com           |http://www.navarra.com/asp/imagelink.asp
+
+000550|turismo|turismo.Navarra       |http://turismo.navarra.com
+000550|turismo|turismo.Navarra       |http://turismo.navarra.com/
+000550|turismo|turismo.Navarra       |http://turismo.navarra.com/index.htm
+
+000600|comercio|Comercio       |http://comercio.navarra.com
+000600|comercio|Comercio       |http://comercio.navarra.com/
+000600|comercio|Comercio       |http://comercio.navarra.com/index.htm
+
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/tiendas/horno
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/tiendas/horno/
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/tiendas/horno/index.asp
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/hornoartesano
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/hornoartesano/
+000800|hornotiendas|Tienda horno          |http://www.navarra.com/hornoartesano/index.asp
+
+
+001000|corydora|Corydora com       |http://www.corydoranetworks.com
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/index.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/soporte-clientes-antispam-corydora-networks-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/clientes-antispam-corydora-networks-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/distribuidor-antispam-corydora-networks-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/datos-generales-solucion-antispam.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/servicios-solucion-antispam.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/la-solucion-antispam.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/soluciones-antispam-para-empresas-coydora-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/soluciones-antispam-para-moviles-coydora-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/soluciones-antispam-para-moviles-empresas-coydora-mx.html
+001000|corydora|Corydora com       |http://www.corydoranetworks.com/prueba-gratis-antispam-corydora-networks-mx.html
+
+
+
+001400|heroscom|Heros com       |http://www.herostechnology.com
+001400|heroscom|Heros com       |http://www.herostechnology.com/
+001400|heroscom|Heros com       |http://www.herostechnology.com/index.htm
+001400|heroscom|Heros com       |http://www.herostechnology.com/contactus.htm
+001400|heroscom|Heros com       |http://www.herostechnology.com/forminfo.asp
+001400|heroscom|Heros com       |http://www.herostechnology.com/formreq.asp
+001400|heroscom|Heros com       |http://www.herostechnology.com/linecard.htm
+001400|heroscom|Heros com       |http://www.herostechnology.com/requirements.htm
+001400|heroscom|Heros com       |http://www.herostechnology.com/services.htm
+
+002400|m0wwa|Radio m0wwa       |http://www.m0wwa.co.uk
+002400|m0wwa|Radio m0wwa       |http://www.m0wwa.co.uk/
+002400|m0wwa|Radio m0wwa       |http://www.m0wwa.co.uk/index.html
+
+||
+tot:xrj|000001|000100|000200|000210|000300|000301|000500|000550|000600|000800|000400|001000|001400|002400
+brinkster:xrj|000001
+catedral:catbcn|000100
+buhardilla:buhardilla|000300|000301
+navarra:navarra|000500|000550|000200|000210|000300|000301|000800|000600
+osasuna:osasuna|000200|000201
+greg:gospel|001000
+jj:jj|000400|001400|002400
+local:local|000000
+||
+

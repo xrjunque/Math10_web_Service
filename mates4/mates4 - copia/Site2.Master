@@ -1,0 +1,164 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site2.Master.vb" Inherits ="mates4.Site2" EnableViewState="true" %>
+<%@ Register Src="~/menu1.ascx"  TagPrefix="uc1" TagName="menu1" %>
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<meta content="MathML, parser, plain, text, string, converter, online"	name="Keywords" />
+	    <meta content="Free Online MathML to/from Plain Text String Converter" name="description" />
+		<meta content="ALL" name="robots" />
+        <title>Polynomials Calculator</title>
+
+
+        <asp:ContentPlaceHolder ID="top" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <link rel="icon" type="image/ico" href="~/favicon.ico" />
+        <link rel="shortcut icon" href="~/favicon.ico" /> 
+        <style type="text/css" media="screen">
+    .cuadrBg
+    {
+    	background-image:Url(/images/cuadr.bmp);
+        background-repeat:repeat;
+        width:720px;
+        border: 2px solid #c0c0c0;
+        /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+        -webkit-border-radius: 12px; 
+        /* Firefox 1-3.6 */
+        -moz-border-radius: 12px; 
+        /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+        border-radius: 12px;      
+    }
+     
+    .redLn
+    {
+    	background-image:Url(/images/cuadr2.jpg);
+        background-repeat:repeat-y;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+    .TableTot
+    {
+    	margin-left:10px;
+    }
+    .TableComments
+    {
+    	margin-left:40px;
+    }    
+    .keyboardMargin { margin-left: 38px;}
+    .menu {
+        margin-left: 10px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="scriptID" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+	<body style="font-family: 'Courier New', 'Courier','Arial';font-size: medium" runat="server" id="bdy2">
+
+    <div runat="server" id="divtot2">
+    <form id="form2" runat="server">
+    <asp:ContentPlaceHolder ID="mobile" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <asp:Table ID="Tabletot2" runat="server" HorizontalAlign="center" Width="700">
+    
+    <asp:TableRow>
+    <asp:TableCell>
+        <div class="cuadrBg">
+    <div class="redLn">
+
+
+        <asp:Table ID="tblBg2"  runat="server" Width="720px" Visible="true">
+        
+		<asp:TableRow>
+		<asp:TableCell>
+		    
+		    <!-- menu -->
+            <uc1:menu1 ID="mn1" runat="server" Visible="true" />
+            <!-- EOMenu -->
+            
+
+
+            <asp:Table ID="Table1" runat="server" Width="720px" HorizontalAlign="center">
+            
+                <asp:TableRow>
+                    <asp:TableCell CssClass="TableTot">
+                        <asp:ContentPlaceHolder ID="content2L" runat="server">
+                    
+                        </asp:ContentPlaceHolder>
+                    </asp:TableCell>
+                    <asp:TableCell HorizontalAlign="Right" Height="40" VerticalAlign="Middle">
+
+                    <asp:ContentPlaceHolder ID="content2R" runat="server" Visible="false">
+                            Language:&nbsp;
+
+
+                        &nbsp;&nbsp;&nbsp;
+                    </asp:ContentPlaceHolder>
+
+
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table> 
+        </asp:TableCell> 
+        </asp:TableRow> 
+		<asp:TableRow>
+		<asp:TableCell HorizontalAlign="Left" VerticalAlign="Top" CssClass="TableTot">
+
+                <asp:ContentPlaceHolder ID="maincontent" runat="server">
+                
+                </asp:ContentPlaceHolder>
+
+
+        </asp:TableCell> 
+        
+        
+        </asp:TableRow> 
+        </asp:Table> 
+
+
+    </div>
+    </div>
+    </asp:TableCell>
+    </asp:TableRow>
+    </asp:Table>
+                <asp:ContentPlaceHolder ID="afterMC" runat="server">
+                
+                </asp:ContentPlaceHolder>
+
+		</form>
+</div> 
+       <asp:ContentPlaceHolder ID="foot" runat="server">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-QFPWQ1DLJW" >
+    </script -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QFPWQ1DLJW');
+</script>
+    <!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-85177833-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+           
+
+        </asp:ContentPlaceHolder>
+	</body>
+</html>
